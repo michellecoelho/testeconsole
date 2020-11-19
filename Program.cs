@@ -8,7 +8,7 @@ namespace WebPageClick
     {
         //static public Point MousePos;
         //static Button One = new Button();
-        
+        static int _x, _y;
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -21,9 +21,11 @@ namespace WebPageClick
                 System.Diagnostics.Process.Start(prs);
                 Console.CursorVisible = false;
                 
+                System.Threading.Thread.Sleep(10000);
+            
+
                 while (!Console.KeyAvailable)
                 {
-                    System.Threading.Thread.Sleep(5000);
                     ShowMousePosition();
                 }
                 Console.CursorVisible = true;
@@ -46,7 +48,7 @@ namespace WebPageClick
             public int Y;
         }
 
-        static int _x, _y;
+
 
         static void ShowMousePosition()
         {
@@ -62,9 +64,13 @@ namespace WebPageClick
 
            
 
-            for(int i = 10; i <= 10; i++){
-                _x = 1097;
-                _y = 385;
+            for(int i = 0; i <= 100000000; i++){
+
+            System.Threading.Thread.Sleep(1000);
+
+            //VOTO
+            _x = 497;
+            _y = 574;
 
             SetCursorPos(_x, _y);
             Console.WriteLine("mouse");
@@ -72,19 +78,31 @@ namespace WebPageClick
             System.Threading.Thread.Sleep(1000);
             mouse_event(MOUSEEVENTF_LEFTUP, (uint)_x, (uint)_y, 0, 0);
 
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(1000);
                     
-            Console.WriteLine("mouse2");
-
-            _x = 973;
-            _y = 310;
+            //VOTAR NOVAMENTE
+            _x = 662;
+            _y = 455;
 
             SetCursorPos(_x, _y);
             mouse_event(MOUSEEVENTF_LEFTDOWN, (uint)_x, (uint)_y, 0, 0);
             System.Threading.Thread.Sleep(1000);
             mouse_event(MOUSEEVENTF_LEFTUP, (uint)_x, (uint)_y, 0, 0);   
 
-                        System.Threading.Thread.Sleep(3000);        
+            System.Threading.Thread.Sleep(1000);        
+            
+            //ROCEIRO
+            _x = 503;
+            _y = 411;
+
+            SetCursorPos(_x, _y);
+            mouse_event(MOUSEEVENTF_LEFTDOWN, (uint)_x, (uint)_y, 0, 0);
+            System.Threading.Thread.Sleep(1000);
+            mouse_event(MOUSEEVENTF_LEFTUP, (uint)_x, (uint)_y, 0, 0);   
+
+            System.Threading.Thread.Sleep(1000);        
+            
+            Console.WriteLine(i);
             }
  
 
