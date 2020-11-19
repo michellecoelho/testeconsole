@@ -1,0 +1,13 @@
+C:\WebPageClick\obj\Debug\netcoreapp3.1\WebPageClick.csprojAssemblyReference.cache
+C:\WebPageClick\obj\Debug\netcoreapp3.1\WebPageClick.AssemblyInfoInputs.cache
+C:\WebPageClick\obj\Debug\netcoreapp3.1\WebPageClick.AssemblyInfo.cs
+C:\WebPageClick\bin\Debug\netcoreapp3.1\WebPageClick.exe
+C:\WebPageClick\bin\Debug\netcoreapp3.1\WebPageClick.deps.json
+C:\WebPageClick\bin\Debug\netcoreapp3.1\WebPageClick.runtimeconfig.json
+C:\WebPageClick\bin\Debug\netcoreapp3.1\WebPageClick.runtimeconfig.dev.json
+C:\WebPageClick\bin\Debug\netcoreapp3.1\WebPageClick.dll
+C:\WebPageClick\bin\Debug\netcoreapp3.1\WebPageClick.pdb
+C:\WebPageClick\obj\Debug\netcoreapp3.1\WebPageClick.dll
+C:\WebPageClick\obj\Debug\netcoreapp3.1\WebPageClick.pdb
+C:\WebPageClick\bin\Debug\netcoreapp3.1\Gma.System.MouseKeyHook.dll
+C:\WebPageClick\obj\Debug\netcoreapp3.1\WebPageClick.csproj.CopyComplete
